@@ -1,0 +1,7 @@
+# Defines the tools that are available to the MCP server
+# Add more tools as needed
+
+tools:
+  - tools.shell_tools
+  - tools.system_monitoring
+  - tools.weather_tools

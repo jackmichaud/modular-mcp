@@ -1,0 +1,1 @@
+# Add search tool / wrapper for brave search API
