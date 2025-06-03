@@ -5,8 +5,11 @@ This project provides a modular and extensible tool server built on `FastMCP`. I
 ## 📁 Project Structure
 ├── server.py             # Defines and exports the shared FastMCP instance
 ├── main.py               # Entry point to run the server
-└── tools/
-└── weather_tools.py  # Weather-related tools (alerts, forecast)
+├── tools/
+│   └── weather_tools.py  # Weather-related tools (alerts, forecast)
+├── client/
+│   └── main.py           # Entry point to run the client
+└── config.yaml           # Configuration file for the server
 
 ## 🚀 Getting Started
 
