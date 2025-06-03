@@ -1,4 +1,4 @@
-# 🌤️ Weather Tool Server
+# 🌤️ Modular MCP Server & Client
 
 This project provides a modular and extensible tool server built on `FastMCP`. It supports multiple tools organized across files and is compatible with a local or remote client that communicates via the MCP protocol.
 
