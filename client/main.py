@@ -34,7 +34,8 @@ class MCPClient:
         self.messages: List[Dict[str, Any]] = [{
             "role": "system",
             "content": "You are a helpful assistant. You can use tools to answer questions and perform tasks. "
-                       "Remember to use tools only when necessary, and always provide clear responses."
+                       "Remember to use tools only when necessary, and always provide clear responses. You may"
+                       "ask for clarification if you need to."
         }]
         
         # Context summary

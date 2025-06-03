@@ -3,6 +3,7 @@
 This project provides a modular and extensible tool server built on `FastMCP`. It supports multiple tools organized across files and is compatible with a local or remote client that communicates via the MCP protocol.
 
 ## 📁 Project Structure
+```
 ├── server.py             # Defines and exports the shared FastMCP instance
 ├── main.py               # Entry point to run the server
 ├── tools/
@@ -10,6 +11,7 @@ This project provides a modular and extensible tool server built on `FastMCP`. I
 ├── client/
 │   └── main.py           # Entry point to run the client
 └── config.yaml           # Configuration file for the server
+```
 
 ## 🚀 Getting Started
 
@@ -19,8 +21,6 @@ This project provides a modular and extensible tool server built on `FastMCP`. I
 - [`uv`](https://github.com/astral-sh/uv) package manager (used to run client/server scripts)
 - MCP-compatible client and server setup
 
----
-
 ### Add Environment Variables
 
 ```bash
@@ -28,6 +28,8 @@ touch .env
 echo "ANTHROPIC_API_KEY=<your key here>" >> .env
 echo ".env" >> .gitignore
 ```
+
+---
 
 ### 🖥️ Run the Server
 
